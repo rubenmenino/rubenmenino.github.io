@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
         <meta charset="utf-8">
         <title>BOMBardEIRO</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -25,6 +42,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/omega.css" rel="stylesheet">
     </head>
 
     <body>
@@ -72,7 +90,7 @@
                                 <a href="contact.html" class="nav-item nav-link">Contact</a>
                                 <a href="team.html" class="nav-item nav-link">Team</a>
                             </div>
-                         
+                            
                         </div>
                     </nav>
                 </div>
@@ -85,65 +103,60 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Scenarios</h2>
+                            <h2>Casos de Uso e Testes</h2>
                         </div>
                         <div class="col-12">
                             <a href="">Home</a>
-                            <a href="">Scenarios</a>
+                            <a href="">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
-
-            <!-- Service Start -->
-            <div class="service">
+            <div class="portfolio">
                 <div class="container">
-                    <div class="section-header text-center">
+ 
 
-    
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/4863.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Quando houver uma chamada na base dos bombeiros, todos eles se deslocarão para a região incendiada. Amaro a partir da web app conseguirá, com acesso a uma dashboard e várias gráficos, ajudar os bombeiros. Com acesso à hora da ocorrência do fogo, da localização do mesmo, e do nivel de CO presente perto dos bombeiros, pode ativar o botão de emergencia se por acaso achar os valores bastante altos comparado com os valores normais, podendo estar os bombeiros em perigo.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Amaro Alves</h3>
-                                    <a class="btn" href="img/4863.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/123.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Andreia quando pretender marcas férias, perto de uma floresta, para aproveitar a natureza, acede à webapp e observa se há fogos perto da zona onde pretende acampar, e se não existir fogos, consegue ainda a parti de dashboards observar o nivel de CO presente no ar.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Andreia Gonçalves</h3>
-                                    <a class="btn" href="img/123.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
+                    Esta sub-secção vai ser usada para apresentar a lista de casos de uso associados ao nosso projeto. 
+                    <br><br><br>
+
+
+                   
+
+                    <table>
+                        <tr>
+                          <th>C-1</th>
+                          <th>Visualizar no mapa a posição de cada bombeiro</th>
+
+                        </tr>
+                        <tr>
+                          <td>C-2</td>
+                          <td>Visualizar numa tabela as informações relativas a cada bombeiro</td>
+                        </tr>
                         
-                    </div>
+                      </table>
+                      <br><br>
+                    
+                      <h3>Testes</h3>
+
+                      Nesta seção está disponível a documentação relativa aos testes, assim como as features criadas, os cenários de cada feature e a implementação para cada teste. 
+Para testar o correto funcionamento do sistema foram desenvolvidos testes utilizando a ferramenta Cucumber, testes esses apresentados a seguir.
+<br><br><br>
+<p style="text-align:center;"> <img src="ab.png" alt="Computer Hope"> <br><br><br>
+    O código Java que executa os testes descritos no Cucumber é o seguinte:
+    <p style="text-align:center;"> <img src="abc.png" alt="Computer Hope">
+                    
+            <p></p>
+            <br><br>
+
                 </div>
             </div>
-            <!-- Service End -->
-            
-            
+
+           
+
+
+
 
 
             <!-- Footer Start -->
@@ -235,6 +248,10 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

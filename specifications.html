@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
         <meta charset="utf-8">
         <title>BOMBardEIRO</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -25,6 +42,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/omega.css" rel="stylesheet">
     </head>
 
     <body>
@@ -72,7 +90,7 @@
                                 <a href="contact.html" class="nav-item nav-link">Contact</a>
                                 <a href="team.html" class="nav-item nav-link">Team</a>
                             </div>
-                         
+                            
                         </div>
                     </nav>
                 </div>
@@ -85,65 +103,95 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Scenarios</h2>
+                            <h2>Specifications</h2>
                         </div>
                         <div class="col-12">
                             <a href="">Home</a>
-                            <a href="">Scenarios</a>
+                            <a href="">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
-
-            <!-- Service Start -->
-            <div class="service">
+            <div class="portfolio">
                 <div class="container">
-                    <div class="section-header text-center">
+ 
+                    <h3>Produto</h3>
+Queremos desenvolver uma aplicação que permite estender todo o domínio de conhecimento e segurança em todas as tarefas revolventes dos bombeiros, recolhendo dados inerentes a cada individual e efetuando, de forma facilmente acessível, informativa e simples, para posterior interpretação por uma entidade de controlo de segurança das nossas forças de combate aos incêndios.
+<br><br>
+<h3>Interfaces de Comunicação</h3>
+A nossa aplicação é do tipo web, portanto o seu uso é direcionado para utilizadores que tenham um browser capaz de comunicar sob o protocolo HTTP.
+<br><br>
+<h3>Requisitos de Qualidade</h3>
 
-    
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/4863.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Quando houver uma chamada na base dos bombeiros, todos eles se deslocarão para a região incendiada. Amaro a partir da web app conseguirá, com acesso a uma dashboard e várias gráficos, ajudar os bombeiros. Com acesso à hora da ocorrência do fogo, da localização do mesmo, e do nivel de CO presente perto dos bombeiros, pode ativar o botão de emergencia se por acaso achar os valores bastante altos comparado com os valores normais, podendo estar os bombeiros em perigo.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Amaro Alves</h3>
-                                    <a class="btn" href="img/4863.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/123.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Andreia quando pretender marcas férias, perto de uma floresta, para aproveitar a natureza, acede à webapp e observa se há fogos perto da zona onde pretende acampar, e se não existir fogos, consegue ainda a parti de dashboards observar o nivel de CO presente no ar.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Andreia Gonçalves</h3>
-                                    <a class="btn" href="img/123.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
+Dado que se trata de um sistema destinado à segurança não só pública mas sobretudo das forças que aumentam essa mesma segurança, têm de ser definidos requisitos de qualidade com um critério exigente.
+<br><br>
+<br><br>
+
+
+Requisitos de usabilidade 
+                   
+
+                    <table>
+                        <tr>
+                          <th>RU-1</th>
+                          <th>O sistema terá de permitir a visualização em tempo real, da localização e dados inerentes a cada bombeiro.</th>
+
+                        </tr>
+                        <tr>
+                          <td>RU-2</td>
+                          <td>A interface deverá reduzir os períodos de indecisão e incerteza a zero, maximizando assim a facilidade de uso.</td>
+                        </tr>
                         
-                    </div>
+                      </table>
+                      <br><br>
+                    
+                  
+                      Requisitos de performance 
+                   
+
+                      <table>
+                          <tr>
+                            <th>RP-1</th>
+                            <th>Deverá ser apenas necessária uma velocidade de conexão à internet reduzida (10 Mbps) para aceder de forma confortável á aplicação.</th>
+  
+                          </tr>
+                          
+                        </table>
+                        <br><br>
+                      
+
+                        Requisitos de disponibilidade 
+                   
+
+                        <table>
+                            <tr>
+                              <th>RD-1</th>
+                              <th>O sistema tem de estar disponível pelo menos 99.5% do tempo.</th>
+    
+                            </tr>
+                            
+                          </table>
+                          <br><br>
+                        
+                    
+
+
+
+
+
+
+            <p></p>
+            <br><br>
+
                 </div>
             </div>
-            <!-- Service End -->
-            
-            
+
+           
+
+
+
 
 
             <!-- Footer Start -->
@@ -235,6 +283,10 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
